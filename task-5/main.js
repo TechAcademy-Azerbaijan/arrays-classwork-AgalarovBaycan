@@ -1,9 +1,10 @@
-const prompt = require('prompt');
-prompt.start();
+const massiv = [1,2,3,4]
 
 
-prompt.get('input', function (err, result) {
-  
-    // Write code here
-  
-});
+
+let a = massiv[massiv.length - 1]
+massiv.pop()
+
+massiv.unshift(a)
+
+console.log(massiv)
