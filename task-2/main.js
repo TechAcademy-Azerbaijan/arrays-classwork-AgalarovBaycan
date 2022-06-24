@@ -1,9 +1,9 @@
-const prompt = require('prompt');
-prompt.start();
+const massiv= [5 ,9 ,3 ,4 ,6]
+let max  = 0
 
-
-prompt.get('input', function (err, result) {
-  
-    // Write code here
-  
-});
+for(i = 0 ; i < massiv.length;i++){
+    if(massiv[i]>max){
+        max= massiv[i]
+        
+    }
+}console.log(max)
